@@ -10,10 +10,11 @@ add_shortcode('PRODUCT_CAT_TREE', 'product_cat_tree_print');
 /**
  *
  * @param array $atts
- *   product_cat_tree_print(['level'=>1])
+ *   product_cat_tree_print(['level'=>1]);
  */
 function product_cat_tree_print($atts)
 {
+
     if (!class_exists('CatTree'))
     {
         include(__DIR__ . DIRECTORY_SEPARATOR . 'CatTree.php');
