@@ -4,16 +4,22 @@ Requires PHP 7.0+
 
 ## Docs
   
-  Создание дерева  из категорий
+    -product_cat_tree  - Создание дерева  из категорий 
   
 ## Install
+    aad in function file:
+    include_once(__DIR__ . DIRECTORY_SEPARATOR . 'function_ext/_import.php');
+    cheak path!!
+
 ## Examples
-   
-    - shotcode	
-        [PRODUCT_CAT_TREE level=1]
-        [PRODUCT_CAT_T  REE]    default level=1
-     - function()
-        product_cat_tree_print(['level'=>1]);
+    -product_cat_tree
+        - shotcode	
+            [PRODUCT_CAT_TREE level=1]
+            [PRODUCT_CAT_T  REE]    default level=1
+        - function()
+            product_cat_tree_print(['level'=>1]);
+            
+          
 
 ## Tests
 
