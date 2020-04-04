@@ -7,7 +7,7 @@ Requires PHP 7.0+
     -product_cat_tree  - Создание дерева  из категорий 
   
 ## Install
-    aad in function file:
+    add in function file:
     include_once(__DIR__ . DIRECTORY_SEPARATOR . 'function_ext/_import.php');
     cheak path!!
 
